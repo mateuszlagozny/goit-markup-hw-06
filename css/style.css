@@ -1,0 +1,666 @@
+/* Style ogólne dla całego dokumentu */
+
+
+body {
+    font-family: "Roboto";
+    background-color: #ffff;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.container {
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+
+
+/* Stylowanie icons */
+
+.contact-email:hover,
+.contact-phone:hover {
+    fill: #2196F3;
+
+}
+
+.icons-about-us {
+    width: 65px;
+    height: 70px;
+    background-color: #F5F4FA;
+    margin-top: 30px;
+    
+}
+
+.icons-main {
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+    margin-top: 94px;
+    text-align: center;
+}
+
+.icons-social-media {
+    width: 20px;
+    height: 20px;
+    transition: color 250ms linear;
+ 
+}
+
+.link-social-media {
+    display: inline-flex;
+    fill: #AFB1B8;
+    margin-bottom: 30px;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+    
+
+.link-social-media:hover,
+.link-social-media-footer:hover {
+    background-color: #2196F3;
+   
+    
+
+}
+
+.icons-social-media:hover {
+    fill: #ffff;
+}
+
+.link-social-media-footer {
+    fill: #ffff;
+    display: inline-flex;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    background-color:grey;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+
+
+.icons-our-customer {
+    width: 106px;
+    height: 60px;
+    margin-right: 30px;
+    border: 1px solid;
+    margin-bottom: 100px;
+    fill: #afb1b8;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+}
+
+.icons-our-customer:hover {
+    color: #2196F3;
+    fill: #2196F3;
+}
+
+
+.link-customers {
+    display: inline;
+    
+}
+
+
+.container-customers {
+    justify-content: space-around;
+}
+
+    
+
+
+
+/* Stylowanie sekcji header */
+.agency::after {
+    position: absolute;
+    content: "";
+    width: 53px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #2196F3; 
+    margin-top: 44px;
+    margin-left: -55px;
+}
+
+
+.portfolio::after {
+    position: absolute;
+    content: "";
+    width: 68px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #2196F3; 
+    margin-top: 44px;
+    margin-left: -65px;
+}
+header {
+    
+    background-color: #ffff;
+    border-bottom: 1px solid;
+    border-color: #ECECEC;
+
+}
+
+.header {
+    display: flex;
+    font-weight: 500;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.link-agency,
+.link-portfolio {
+    color: #2196F3;
+    position: relative;
+}
+
+.menu-header {
+    margin-right: 25px;
+
+}
+span {
+    color: #2196F3;
+}
+
+.logotyp {
+    font-family: "Raleway";
+    font-size: 26px;
+}
+#contact {
+    margin-left: auto;
+}
+
+
+.contact-phone,
+.contact-email {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.link {
+    display: flex;
+    align-items: center;
+}
+
+
+/* Stylowanie sekcji motto */
+
+#motto {
+    background-image: url(../images/img-tlo.png);
+    width: auto;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.motto-container {
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 44px;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 30px;
+    color: #ffff;
+}
+
+.order-service {
+
+    margin-bottom: 250px;
+    font-size: 16px;
+    align-items: center;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.order-service-button {
+    background-color: #2196F3;
+    color: #ffff;
+    font-weight: bold;
+    border-radius: 5px;
+    border-color: #2196F3;
+    width: 200px;
+    height: 50px;
+
+}
+
+
+/* Stylowanie sekcji main */
+.main-content {
+    margin: 0 auto;
+}
+h2 {
+    margin-left: 15px;
+}
+p {
+    color: #757575;
+    padding: 15px;
+}
+
+/* Stylowanie sekcji our-project */
+
+
+section.container {
+    flex-direction: column;
+}
+
+.our-project,
+.images-our-project,
+#our-team {
+    text-align: center;
+}
+
+.our-project {
+    padding-top: 94px;
+}
+
+.images-our-project{
+    padding-bottom: 94px;
+}
+
+.image1,
+.image2,
+.image3 {
+
+    display: inline-flex;
+}
+.image1 {
+    margin-right: 30px;
+
+}
+.image3 {
+    margin-left: 30px;
+}
+.images-project,
+.images-project2,
+.images-project3 {
+    position: relative;
+    
+}
+
+.caption-image,
+.caption-image2,
+.caption-image3 {
+    position: absolute;
+    background-color: rgba(47, 48, 58, 0.8);
+    text-transform: uppercase;
+    width: 370px;
+    height: 70px;
+    text-align: center;
+    color: #fff;
+    align-items: center;
+    margin-top: 224px;
+    
+}
+
+/* Stylowanie sekcji our-team */
+
+.container-our-team {
+    background-color: #F5F4FA;
+    width: auto;
+    height: 708px;
+    padding-top: 94px;
+}
+
+
+
+figure {
+    display: inline-block;
+    margin: 7px;
+    background-color: #ffff;
+    border-radius: 4px;
+    justify-content: space-between;
+}
+.our-team {
+
+   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
+   text-align: center;
+   
+   
+}
+
+figcaption {
+    padding: 15px;
+    text-align: center;
+
+}
+
+
+.name-team {
+    font-weight: 500;
+    color: black;
+}
+
+/* Stylowanie linków a */
+
+
+a {
+    text-decoration: none;
+    color: black;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+a:hover,
+a:focus {
+    color: #2196F3;
+
+}
+
+
+/* Stylowanie sekcji customers */
+
+.customers {
+    padding-top: 94px;
+}
+
+.customers-container {
+    background-color: #ffff;
+    text-align: center;
+    justify-content: space-around;
+}
+
+
+/* Stylowanie sekcji footer */
+
+footer {
+    background-color: #2F303A;
+}
+
+.address {
+    color: #ffff;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.link-address,
+.city-address {
+    color: #ffff;
+    opacity: 60%;
+    font-size: 14px;
+}
+
+.join-us {
+    color: #ffff;
+    font-weight: 700;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.newsletter {
+    color: #fff;
+}
+.sign-up {
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+    background-color: #2196F3;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+}
+
+.email-sign-up {
+    height: 50px;
+    width: 358px;
+    background-color: #2F303A;
+    color: #ffff;
+    border-color: #fff;
+}
+
+#newsletter {
+    margin-left: 30px;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+.icon-sign-up {
+    
+    width: 24px;
+    height: 24px;
+    padding-left: 5px;
+    fill: #fff;
+    justify-content: center;
+
+}
+
+/* Stylowanie podstrony portfolio */
+
+#portfolio {
+    background-color: #ffff;
+}
+
+.main-portfolio {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button {
+    background-color: #F5F4FA;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 22px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button:hover,
+.button:focus {
+    background-color: #2196F3;
+    color: #ffff;
+}
+
+.images-portfolio {
+    position: relative;
+    overflow: hidden;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border: 1px solid;
+    border-color: #EEEEEE;
+
+}
+
+.portfolio-images {
+    position: relative;
+    /* overflow: hidden; */
+
+}
+
+.description {
+    position: absolute;
+    background-color: rgba(33, 150, 243, 0.9);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+
+    transform: translateY(100%);
+    transition: transform 250ms ease;
+    
+ 
+}
+
+.add-card {
+    position: relative;
+    overflow: hidden;
+    width: 370px;
+    height: 294px;
+
+}
+
+.div {
+    display: inline;
+}
+
+
+
+.description > p {
+    color: #fff;
+    
+}
+
+.images-portfolio:hover .description {
+ 
+    transform: translateY(0);
+}
+
+.images-portfolio:hover {
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.3);
+}
+
+/* backdrop */
+
+.backdrop {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    transition-duration: 1500ms;
+}
+
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 528px;
+    min-height: 584px;
+    background-color: #fff;
+    transition-property: transform;
+}
+
+.close-btn {
+    position: absolute;
+    top: 11px;
+    right: 11px;
+    width: 30px;
+    height: 30px;
+    background-color: #ffff;
+    border: 1px solid;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition-duration: 1500ms;
+}
+
+.form-backdrop {
+    position: relative;
+    
+    /* top: 50%;
+    left: 50%;
+} */
+}
+.form-name {
+    text-align: center;
+    margin-top: 155px;
+    font-size: 20px;
+}
+.icon-controls {
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    padding-left: 5px;
+}
+
+
+.controls {
+    position: relative;
+    display:flex;
+    justify-content: center;
+}
+
+.label {
+    position: relative;
+    display:flex;
+    justify-content: center;
+}
+textarea {
+    width: 480px;
+    height: 120px;
+}
+
+textarea:hover,
+textarea:focus {
+    border-color: #2196F3;
+}
+
+.controls-content {
+    border: 1px solid;
+    background-color: #fff;
+    padding-bottom: 0;
+    margin-bottom: 28;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.controls-content:hover,
+.controls-content:focus {
+    border-color: #2196F3;
+    fill: #2196F3;
+    
+}
+
+.statut {
+    position: relative;
+    text-align: center;
+}
+
+.link-statut {
+    color: #2196F3;
+    text-decoration: underline;
+}
+
+
+.input-backdrop {
+    border: none;
+    width: 448px;
+    height: 40px;
+    padding-left: 10px;
+}
+.input-backdrop:hover,
+.input-backdrop:focus {
+    outline: none;
+} 
+
+.label-accept {
+    display: inline;
+    justify-content: center;
+}
+.label-accept::before {
+    display: block;
+    width: 16px;
+    height: 16px;
+    content: "";
+    border: 1px solid;
+    border-color: black;
+}
+
+.checkbox:checked + .label-accept::before {
+    background-image: url(../index.html/icon-vector.svg);
+}
+.btn-backdrop {
+    position: absolute;
+    justify-content: center;
+    background-color: #2196F3;
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
