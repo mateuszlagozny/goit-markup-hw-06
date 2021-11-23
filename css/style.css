@@ -409,6 +409,7 @@ footer {
     border-radius: 10px;
     padding-bottom: 10px;
     margin-left: 10px;
+    align-content: center;
 }
 
 .email-sign-up {
@@ -431,6 +432,8 @@ footer {
     padding-left: 5px;
     fill: #fff;
     justify-content: center;
+    padding-top: 5px;
+    text-align: center;
 
 }
 
@@ -562,14 +565,12 @@ footer {
 .form-backdrop {
     position: relative;
     
-    /* top: 50%;
-    left: 50%;
-} */
 }
 .form-name {
     text-align: center;
-    margin-top: 155px;
+    margin-top: 10px;
     font-size: 20px;
+    margin-right: 50px;
 }
 .icon-controls {
     width: 12px;
@@ -588,11 +589,14 @@ footer {
 .label {
     position: relative;
     display:flex;
-    justify-content: center;
+    justify-content: flex-start;
+    padding-left: 25px;
 }
 textarea {
     width: 480px;
     height: 120px;
+    border: 1px solid;
+    margin-bottom: 20px;
 }
 
 textarea:hover,
@@ -639,21 +643,31 @@ textarea:focus {
 } 
 
 .label-accept {
-    display: inline;
+    display: inline-block;
     justify-content: center;
+    
 }
 .label-accept::before {
-    display: block;
+    display: inline-block;
     width: 16px;
     height: 16px;
     content: "";
     border: 1px solid;
     border-color: black;
+    margin-right: 5px;
 }
 
 .checkbox:checked + .label-accept::before {
-    background-image: url(../index.html/icon-vector.svg);
+    background-color: #2196F3;
+    background-image: url(../images/vector.svg);
+    background-position: center;
+    background-size: 16px 16px;
+    border: none;
 }
+.checkbox {
+    display: none;
+}
+
 .btn-backdrop {
     position: absolute;
     justify-content: center;
@@ -663,4 +677,5 @@ textarea:focus {
     border: none;
     border-radius: 5px;
     font-size: 16px;
+    margin-top: 20px;
 }

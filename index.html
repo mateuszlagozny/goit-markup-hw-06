@@ -309,9 +309,9 @@
         <div class="backdrop is-hidden" data-modal>
             <div class="modal">
                 <button class="close-btn" type="button" data-modal-close>X</button>
-            </div>
+            
 
-            <!-- Formularz okna modalnego -->
+             <!-- Formularz okna modalnego -->
 
             <form class="form-backdrop">
                 <h2 class="form-name">Zostaw swoje dane w formularzu ponieżej</h2>
@@ -381,19 +381,20 @@
                 </div>
                         
                 <div class="statut">
-                    <label for="" class="label-accept">
-                        <input class="checkbox" type="checkbox">
-                        Oświadczam iż akceptuję
+                    
+                    <input class="checkbox" type="checkbox" name="checkbox" id="accept">
+                        
+                    <label for="accept" class="label-accept">Oświadczam iż akceptuję
                         <a class="link-statut" href="#">Regulamin</a> i
-                        <a class="link-statut" href="#">Polityka Prywatności</a>
-                    </label>
-                    </p>
+                        <a class="link-statut" href="#">Polityka Prywatności</a></label>
                 </div>
                 <div class="controls">
                     <button class="btn-backdrop" type="submit">Wyślij</button>
                 </div>
                     
             </form>
+    
+            </div>
             
 
         </div>
@@ -439,7 +440,7 @@
                 <span>
                     <button class="sign-up" type="submit">Zapisz się
                     <svg class="icon-sign-up">
-                            <use href="icon-send"></use>
+                            <use href="#icon-send"></use>
                         </svg></a>
                     </button>
                 </span>
@@ -793,7 +794,7 @@
                 </path>
             </symbol>
             <symbol id="icon-vector" viewBox="0 0 42 32">
-                <path stroke="#fff" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.64"
+                <path  stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.64"
                     d="M6.263 15.205l-0.22-0.21-3.307 3.132 11.651 11.114 24.477-23.351-3.285-3.134-21.192 20.197-8.124-7.75z">
                 </path>
             </symbol>
