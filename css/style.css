@@ -671,9 +671,8 @@ textarea:focus {
 
 .input-backdrop {
     border: none;
-    /* width: 448px;
-    height: 40px; */
-    padding-left: 10px;
+    width: 405px;
+    
 }
 .input-backdrop:hover,
 .input-backdrop:focus {
